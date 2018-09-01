@@ -1,9 +1,9 @@
-﻿using Pendramon.Lottery.Entities.Interfaces;
+﻿using Pendramon.Lottery.Data.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Pendramon.Lottery.Entities.Model
+namespace Pendramon.Lottery.Data.Model
 {
     public class Code : ICode
     {

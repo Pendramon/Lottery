@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pendramon.Lottery.Entities", "Pendramon.Lottery.Entities\Pendramon.Lottery.Entities.csproj", "{4D7FCA6F-7E95-4280-9613-30B8AC9F8280}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pendramon.Lottery.Web", "Pendramon.Lottery.Web\Pendramon.Lottery.Web.csproj", "{D0BD105E-14C7-4DCF-B2E5-9964B82C11FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pendramon.Lottery.WebAPI", "Pendramon.Lottery.WebAPI\Pendramon.Lottery.WebAPI.csproj", "{CF24B4B3-49EA-4145-B6E9-73E79BB73C1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pendramon.Lottery.Web.Tests", "Pendramon.Lottery.Web.Tests\Pendramon.Lottery.Web.Tests.csproj", "{DAD7DFC2-35AF-461C-A2E9-23C5BB638320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pendramon.Lottery.Data", "Pendramon.Lottery.Data\Pendramon.Lottery.Data.csproj", "{361344D0-F473-4290-BBE4-A2E737B91A78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D7FCA6F-7E95-4280-9613-30B8AC9F8280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D7FCA6F-7E95-4280-9613-30B8AC9F8280}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D7FCA6F-7E95-4280-9613-30B8AC9F8280}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D7FCA6F-7E95-4280-9613-30B8AC9F8280}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF24B4B3-49EA-4145-B6E9-73E79BB73C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF24B4B3-49EA-4145-B6E9-73E79BB73C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF24B4B3-49EA-4145-B6E9-73E79BB73C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF24B4B3-49EA-4145-B6E9-73E79BB73C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BD105E-14C7-4DCF-B2E5-9964B82C11FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BD105E-14C7-4DCF-B2E5-9964B82C11FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BD105E-14C7-4DCF-B2E5-9964B82C11FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BD105E-14C7-4DCF-B2E5-9964B82C11FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD7DFC2-35AF-461C-A2E9-23C5BB638320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD7DFC2-35AF-461C-A2E9-23C5BB638320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD7DFC2-35AF-461C-A2E9-23C5BB638320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD7DFC2-35AF-461C-A2E9-23C5BB638320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361344D0-F473-4290-BBE4-A2E737B91A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361344D0-F473-4290-BBE4-A2E737B91A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361344D0-F473-4290-BBE4-A2E737B91A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361344D0-F473-4290-BBE4-A2E737B91A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
