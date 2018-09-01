@@ -1,11 +1,8 @@
-﻿using Pendramon.Lottery.Data.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace Pendramon.Lottery.Data.Model
 {
-    public class Award : IAward
+    public class Award
     {
         public int AwardID { get; set; }
 

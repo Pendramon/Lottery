@@ -1,11 +1,8 @@
-﻿using Pendramon.Lottery.Data.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace Pendramon.Lottery.Data.Model
 {
-    public class Code : ICode
+    public class Code
     {
         public int CodeID { get; set; }
 
