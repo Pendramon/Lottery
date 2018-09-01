@@ -63,9 +63,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Pendramon.Lottery.Web\Pendramon.Lottery.Web.csproj">
-      <Project>{D0BD105E-14C7-4DCF-B2E5-9964B82C11FC}</Project>
-      <Name>Pendramon.Lottery.Web</Name>
+    <ProjectReference Include="..\Pendramon.Lottery.Service\Pendramon.Lottery.Service.csproj">
+      <Project>{8d3fcbcc-0554-43ef-b21f-55cb57d75130}</Project>
+      <Name>Pendramon.Lottery.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

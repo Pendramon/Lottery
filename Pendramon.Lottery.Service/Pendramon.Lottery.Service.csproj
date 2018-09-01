@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>8d3fcbcc-0554-43ef-b21f-55cb57d75130</ProjectGuid>
+    <ProjectGuid>{8D3FCBCC-0554-43EF-B21F-55CB57D75130}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Pendramon.Lottery.Service</RootNamespace>
@@ -30,24 +30,35 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pendramon.Lottery.Data.Model\Pendramon.Lottery.Data.Model.csproj">
+      <Project>{1425368c-683a-40a7-8f01-1216b7b3f209}</Project>
+      <Name>Pendramon.Lottery.Data.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pendramon.Lottery.Data\Pendramon.Lottery.Data.csproj">
+      <Project>{361344d0-f473-4290-bbe4-a2e737b91a78}</Project>
+      <Name>Pendramon.Lottery.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pendramon.Lottery.Mapper\Pendramon.Lottery.Mapper.csproj">
+      <Project>{96d2d4c6-e0bf-4a27-8f28-bac367ec2a31}</Project>
+      <Name>Pendramon.Lottery.Mapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pendramon.Lottery.View.Model\Pendramon.Lottery.View.Model.csproj">
+      <Project>{ae21f37e-2c52-4c6a-b75e-aa7f4f62bbe5}</Project>
+      <Name>Pendramon.Lottery.View.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>

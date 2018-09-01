@@ -40,11 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IAward.cs" />
-    <Compile Include="Interfaces\ICode.cs" />
-    <Compile Include="Model\Award.cs" />
-    <Compile Include="Model\Code.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pendramon.Lottery.Data.Model\Pendramon.Lottery.Data.Model.csproj">
+      <Project>{1425368c-683a-40a7-8f01-1216b7b3f209}</Project>
+      <Name>Pendramon.Lottery.Data.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

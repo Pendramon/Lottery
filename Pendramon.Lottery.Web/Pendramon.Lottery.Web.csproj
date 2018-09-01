@@ -105,6 +105,16 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pendramon.Lottery.Service\Pendramon.Lottery.Service.csproj">
+      <Project>{8d3fcbcc-0554-43ef-b21f-55cb57d75130}</Project>
+      <Name>Pendramon.Lottery.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pendramon.Lottery.View.Model\Pendramon.Lottery.View.Model.csproj">
+      <Project>{ae21f37e-2c52-4c6a-b75e-aa7f4f62bbe5}</Project>
+      <Name>Pendramon.Lottery.View.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
