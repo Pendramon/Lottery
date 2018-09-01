@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Pendramon.Lottery.Data.Model
 {
-    [Table("dbo.Codes")]
+    [Table("Codes")]
     public class Code : IEntity
     {
         [Key]
