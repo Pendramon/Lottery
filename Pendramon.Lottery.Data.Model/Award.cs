@@ -7,10 +7,17 @@ namespace Pendramon.Lottery.Data.Model
     [Table("Awards")]
     public class Award : IEntity
     {
+
+        #region Primary Key
+
         [Key]
         [Column("AwardID", Order = 0)]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
+
+        #endregion
+
+        #region Public Properties
 
         public string AwardName { get; set; }
 
@@ -19,5 +26,8 @@ namespace Pendramon.Lottery.Data.Model
         public byte RuffledType { get; set; } // Enum values: Imediate/PerDay/Final
 
         public int Quantity { get; set; }
+
+        #endregion
+
     }
 }
