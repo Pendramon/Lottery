@@ -1,6 +1,4 @@
-﻿
-
-namespace Pendramon.Lottery.Data.Model.Interfaces
+﻿namespace Pendramon.Lottery.Data.Model.Interfaces
 {
     public interface IEntity
     {
