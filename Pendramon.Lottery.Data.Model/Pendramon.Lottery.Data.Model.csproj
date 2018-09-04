@@ -52,6 +52,7 @@
     <Compile Include="Enums\RuffledType.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="LotteryContext.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserCode.cs" />
     <Compile Include="UserCodeAward.cs" />
