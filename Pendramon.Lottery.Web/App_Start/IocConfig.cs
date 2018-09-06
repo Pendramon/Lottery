@@ -1,6 +1,8 @@
 ﻿using Autofac;
 using Autofac.Integration.WebApi;
 using Pendramon.Lottery.Service;
+using Pendramon.Lottery.Service.Interfaces;
+using Pendramon.Lottery.Service.IoC;
 using System.Reflection;
 using System.Web.Http;
 
@@ -25,9 +27,9 @@ namespace Pendramon.Lottery.Web.App_Start
             //Register your web API controllers.
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
 
-            builder.RegisterType<LotteryService>().As<LotteryService>().InstancePerRequest();
+            builder.RegisterType<LotteryServiceV0>().As<ILotteryService>().InstancePerRequest();
 
-            //builder.RegisterModule(new ServiceModule());
+            builder.RegisterModule(new ServiceModule());
 
             return builder.Build();
         }
