@@ -27,7 +27,7 @@ namespace Pendramon.Lottery.Web.App_Start
             //Register your web API controllers.
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
 
-            builder.RegisterType<LotteryServiceV0>().As<ILotteryService>().InstancePerRequest();
+            builder.RegisterType<LotteryService>().As<ILotteryService>().InstancePerRequest();
 
             builder.RegisterModule(new ServiceModule());
 
