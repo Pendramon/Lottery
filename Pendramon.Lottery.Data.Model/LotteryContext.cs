@@ -8,7 +8,7 @@ namespace Pendramon.Lottery.Data.Model
 
         #region Constructor
 
-        protected LotteryContext() : base("LotteryDb")
+        public LotteryContext() : base("LotteryDb")
         {
         }
 
