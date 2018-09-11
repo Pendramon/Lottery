@@ -10,7 +10,7 @@ namespace Pendramon.Lottery.Service.IoC
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<LotteryContext>().As<DbContext>().InstancePerLifetimeScope();
-
+                
             builder.RegisterGeneric(typeof(Repository<>)).As(typeof(IRepository<>));
         }
     }

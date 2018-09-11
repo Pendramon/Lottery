@@ -96,6 +96,16 @@ namespace Pendramon.Lottery.Service
             }
         }
 
+        public List<UserCodeAwardModel> GetAllWinners()
+        {
+            using (UnitOfWork uow = new UnitOfWork(dbContext))
+            {
+                var winners = userCodeAwardRepository.GetAll().Include(x => x.UserCode.Code).Include(x => x.Award).ToList();
+
+                return winners.Select(x => x.Map<UserCodeAward, UserCodeAwardModel>()).ToList();
+            }
+        }
+
         #endregion
 
         #region Private Methods

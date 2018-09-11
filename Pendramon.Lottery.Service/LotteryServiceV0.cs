@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace Pendramon.Lottery.Service
 {
-    public class LotteryServiceV0 : ILotteryService
+    public class LotteryServiceV0
     {
 
         #region Public Methods

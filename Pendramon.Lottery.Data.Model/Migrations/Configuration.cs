@@ -8,7 +8,7 @@ namespace Pendramon.Lottery.Data.Model.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
 
         }
 
