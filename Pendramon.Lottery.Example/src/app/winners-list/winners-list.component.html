@@ -1,0 +1,18 @@
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Award</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let winner of winners">
+        <td>{{winner.userCode.firstName}} {{winner.userCode.lastName}}</td>
+        <td>{{winner.userCode.email}}</td>
+        <td>{{winner.award.awardName}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
