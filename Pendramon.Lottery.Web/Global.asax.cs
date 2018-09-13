@@ -1,4 +1,5 @@
-﻿using Pendramon.Lottery.Web.App_Start;
+﻿using Newtonsoft.Json.Serialization;
+using Pendramon.Lottery.Web.App_Start;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,12 @@ namespace Pendramon.Lottery.Web
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
             IocConfig.Initialize(GlobalConfiguration.Configuration);
+            GlobalConfiguration.Configuration
+                .Formatters
+                .JsonFormatter
+                .SerializerSettings
+                .ContractResolver = new CamelCasePropertyNamesContractResolver();
+
         }
     }
 }
