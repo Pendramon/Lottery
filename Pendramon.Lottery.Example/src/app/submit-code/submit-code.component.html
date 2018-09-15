@@ -1,0 +1,20 @@
+<div class="container">
+  <a [routerLink]="['/winners']">Winners List</a>
+</div>
+<div class="container">
+  <form ngNativeValidate (submit)="submit()">
+    <div class="form-group">
+      <input type="text" class="form-control" name="first-name" placeholder="First Name" [(ngModel)]="userCode.firstName" required>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" name="last-name" placeholder="Last Name" [(ngModel)]="userCode.lastName" required>
+    </div>
+    <div class="form-group">
+      <input type="email" class="form-control" name="email" placeholder="Email" [(ngModel)]="userCode.email" required>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" name="code" placeholder="Code" [(ngModel)]="userCode.code.codeValue" required>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
