@@ -4,6 +4,13 @@ namespace Pendramon.Lottery.Mapper
 {
     public static class Mapper
     {
+        /// <summary>
+        /// Maps a database model with a view model
+        /// </summary>
+        /// <typeparam name="T1"></typeparam>
+        /// <typeparam name="T2"></typeparam>
+        /// <param name="dbModel"></param>
+        /// <returns></returns>
         public static T2 Map<T1, T2>(this T1 dbModel)
         {
             var model = Activator.CreateInstance<T2>();
