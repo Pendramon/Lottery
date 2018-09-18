@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  webApiUrl: "http://www.lottery-api.com/api/lottery/"
 };
