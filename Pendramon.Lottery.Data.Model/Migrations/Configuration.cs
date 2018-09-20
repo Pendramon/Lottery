@@ -6,10 +6,17 @@ namespace Pendramon.Lottery.Data.Model.Migrations
 {
     internal sealed class Configuration : DbMigrationsConfiguration<LotteryContext>
     {
+
+        #region Migrations Configuration
+
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
+
+        #endregion
+
+        #region Seed Method
 
         protected override void Seed(LotteryContext context)
         {
@@ -68,5 +75,8 @@ namespace Pendramon.Lottery.Data.Model.Migrations
 
             context.SaveChanges();
         }
+
+        #endregion
+
     }
 }
