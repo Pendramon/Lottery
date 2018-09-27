@@ -1,0 +1,11 @@
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\bin\Release\netstandard2.0\Pendramon.RaffleConsole.Data.deps.json
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\bin\Release\netstandard2.0\Pendramon.RaffleConsole.Data.dll
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\bin\Release\netstandard2.0\Pendramon.RaffleConsole.Data.pdb
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\bin\Release\netstandard2.0\Pendramon.RaffleConsole.Data.Model.dll
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\bin\Release\netstandard2.0\Pendramon.RaffleConsole.Data.Model.pdb
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\obj\Release\netstandard2.0\Pendramon.RaffleConsole.Data.csprojResolveAssemblyReference.cache
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\obj\Release\netstandard2.0\Pendramon.RaffleConsole.Data.csproj.CoreCompileInputs.cache
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\obj\Release\netstandard2.0\Pendramon.RaffleConsole.Data.AssemblyInfoInputs.cache
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\obj\Release\netstandard2.0\Pendramon.RaffleConsole.Data.AssemblyInfo.cs
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\obj\Release\netstandard2.0\Pendramon.RaffleConsole.Data.dll
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data\obj\Release\netstandard2.0\Pendramon.RaffleConsole.Data.pdb

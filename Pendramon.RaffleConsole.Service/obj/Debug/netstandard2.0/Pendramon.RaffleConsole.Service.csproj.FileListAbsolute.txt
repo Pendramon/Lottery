@@ -1,0 +1,13 @@
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Service.deps.json
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Service.dll
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Service.pdb
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.dll
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.dll
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.pdb
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.pdb
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Service.csprojResolveAssemblyReference.cache
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Service.csproj.CoreCompileInputs.cache
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Service.AssemblyInfoInputs.cache
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Service.AssemblyInfo.cs
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Service.dll
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Service\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Service.pdb

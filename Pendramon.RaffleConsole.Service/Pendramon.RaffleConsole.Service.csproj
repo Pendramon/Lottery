@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pendramon.RaffleConsole.Data.Model\Pendramon.RaffleConsole.Data.Model.csproj" />
+    <ProjectReference Include="..\Pendramon.RaffleConsole.Data\Pendramon.RaffleConsole.Data.csproj" />
+  </ItemGroup>
+
+</Project>

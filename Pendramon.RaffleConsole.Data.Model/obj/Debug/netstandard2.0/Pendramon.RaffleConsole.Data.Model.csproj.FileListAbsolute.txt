@@ -1,0 +1,9 @@
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data.Model\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.deps.json
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data.Model\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.dll
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data.Model\bin\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.pdb
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data.Model\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.csprojResolveAssemblyReference.cache
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data.Model\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.csproj.CoreCompileInputs.cache
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data.Model\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.AssemblyInfoInputs.cache
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data.Model\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.AssemblyInfo.cs
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data.Model\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.dll
+C:\Users\Code\Desktop\Code Academy 17-18 Pendramon\Expert CSHARP Topics\Pendramon.RaffleConsole\Pendramon.RaffleConsole.Data.Model\obj\Debug\netstandard2.0\Pendramon.RaffleConsole.Data.Model.pdb
